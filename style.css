@@ -1,0 +1,193 @@
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;600&display=swap');
+/* google font end  */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.inter{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* gray scale css start  */
+.gray-scale{
+    filter: grayscale(1);
+}
+/* gray scale css end  */
+
+
+
+
+
+
+
+/* margin & padding css start */
+.padd-left-right{
+    padding: 0 3rem;
+}
+.padd-xy{
+    padding: 2rem 2.5rem;
+}
+.margin-right{
+    margin-right: 2.25rem;
+}
+.margin-right-xl{
+    margin-right: 6.50rem;
+}
+.mar-top {
+    margin-top: 2rem;
+}
+.margin-y{
+    margin-top: 7.5rem;
+    margin-bottom: 10.31rem;
+}
+/* margin & padding css end */
+
+
+
+
+
+
+
+
+/* background & color css start  */
+.bg-nevy-light{
+    background: #264653;
+}
+.border-orange-light{
+    border: 1px solid #E76F51;
+}
+.text-primary-deep{
+    color: #23A6F0
+}
+.bg-orange-light{
+    background: #E76F51;
+}
+.text-orange{
+    color: #E76F51;
+}
+.text-warning-deep{
+    color: #E76F51;
+}
+/* background & color css end  */
+
+
+
+
+
+
+
+
+
+
+/* font size css start  */
+.fs-xl {
+    font-size: 5rem;
+}
+.fs-big {
+    font-size: 3rem;
+}
+.fs-mid{
+    font-size: 1.25rem;
+}
+.fs-small{
+    font-size: 0.875rem;
+}
+/* font size css end  */
+
+
+
+
+
+
+
+
+/* border radious css start  */
+.round{
+    border-radius: 20px;
+}
+/* border radious css start  */
+
+
+
+
+
+
+
+
+
+/* after before css start  */
+.after-effect{
+    position: relative;
+}
+.after-effect:after{
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 2px;
+    background: #E76F51;
+    top: 110%;
+    left: 47%;
+}
+/* after before css start  */
+
+
+
+
+
+
+
+/* footer area css start  */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.sm-scrn{
+    display: none;
+}
+.md-scrn {
+    display: block;
+}
+/* footer area css start  */
+
+
+
+
+
+
+
+
+/* media query start  */
+@media only screen and (max-width: 600px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+    .sm-scrn{
+        display: block;
+    }
+    .md-scrn {
+        display: none;
+    }
+    .padd-left-right{
+        padding: 0;
+    }
+}
+/* media query end  */
